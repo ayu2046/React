@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect, useRef } from 'react'
 import './App.css'
 
 function App() {
-  const[length, setLength] = useState(8)
+  const[length, setLength] = useState(0)
   const[numberAllowed, setNumberAllowed] = useState(false);
   const[charAllowed, setCharAllowed] = useState(false);
   const[password, setPassword] = useState();
@@ -60,7 +60,7 @@ function App() {
         <div className='flex flex-wrap gap-3 '>
           <div className='flex gap-2 font-semibold'>
             <input type='range'
-            min = {8}
+            min = {1}
             max = {100}
             value={length}
             className='cursor-pointer'
