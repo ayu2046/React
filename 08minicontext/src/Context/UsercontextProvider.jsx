@@ -1,6 +1,7 @@
 import React from "react";
 import UserContext from "./Usercontext";
 
+// Provider component for UserContext
 const UserContextProvider = ({children}) => {
     const [user, setUser] = React.useState(null)
     return(
