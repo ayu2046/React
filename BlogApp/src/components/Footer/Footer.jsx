@@ -32,7 +32,7 @@ function Footer() {
               <ul>
                 <li className="mb-4">
                   <Link
-                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:shadow-gray-500 p-2"
+                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:bg-gray-500 p-2"
                     to="/"
                   >
                     Features
@@ -40,7 +40,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:shadow-gray-500 p-2"
+                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:bg-gray-500 p-2"
                     to="/"
                   >
                     Pricing
@@ -48,7 +48,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:shadow-gray-500 p-2"
+                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:bg-gray-500 p-2"
                     to="/"
                   >
                     Affiliate Program
@@ -56,7 +56,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:shadow-gray-500 p-2"
+                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:bg-gray-500 p-2"
                     to="/"
                   >
                     Press Kit
@@ -74,7 +74,7 @@ function Footer() {
               <ul>
                 <li className="mb-4">
                   <Link
-                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:shadow-gray-500 p-2"
+                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:bg-gray-500 p-2"
                     to="/"
                   >
                     Account
@@ -82,7 +82,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:shadow-gray-500 p-2"
+                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:bg-gray-500 p-2"
                     to="/"
                   >
                     Help
@@ -90,7 +90,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:shadow-gray-500 p-2"
+                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:bg-gray-500 p-2"
                     to="/"
                   >
                     Contact Us
@@ -98,7 +98,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:shadow-gray-500 p-2"
+                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:bg-gray-500 p-2"
                     to="/"
                   >
                     Customer Support
@@ -116,7 +116,7 @@ function Footer() {
               <ul>
                 <li className="mb-4">
                   <Link
-                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:shadow-gray-500 p-2"
+                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:bg-gray-500 p-2"
                     to="/"
                   >
                     Terms &amp; Conditions
@@ -124,7 +124,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:shadow-gray-500 p-2"
+                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:bg-gray-500 p-2"
                     to="/"
                   >
                     Privacy Policy
@@ -132,7 +132,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:shadow-gray-500 p-2"
+                    className="text-base font-medium text-gray-300 hover:text-gray-100 transition-all hover:rounded-lg hover:shadow-lg hover:bg-gray-500 p-2"
                     to="/"
                   >
                     Licensing

@@ -12,7 +12,7 @@ function Header() {
     {
       name: 'Home',
       slug: "/",
-      active: true
+      active: authStatus
     }, 
     {
       name: "Login",
@@ -38,7 +38,8 @@ function Header() {
 
 
   return (
-    <header className='py-3 shadow text-white'style={{ backgroundColor: '#1F2937'}}>
+    <header className='py-2 mb-0 text-black bg-slate-400'>
+      
       <Container>
         <nav className='flex'>
           <div className='mr-4'>
@@ -47,13 +48,13 @@ function Header() {
 
               </Link>
           </div>
-          <ul className='flex ml-auto'>
+          <ul className='flex ml-auto mt-2 font-semibold'>
             {navItems.map((item) => 
             item.active ? (
               <li key={item.name}>
                 <button
                 onClick={() => navigate(item.slug)}
-                className='inline-bock px-6 py-2 duration-200 hover:bg-blue-100 rounded-full'
+                className='inline-bock px-6 py-2 duration-200 hover:bg-blue-100 hover:text-black hover:text-xl rounded-full'
                 >{item.name}</button>
               </li>
             ) : null

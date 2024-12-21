@@ -4,6 +4,7 @@ import {Container, PostCard} from '../components'
 
 function Home() {
     const [posts, setPosts] = useState([])
+    
 
     useEffect(() => {
         appwriteService.getPosts().then((posts) => {
